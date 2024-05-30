@@ -6,7 +6,8 @@ import us from "../../../public/flags/us.png";
 import fr from "../../../public/flags/fr.png";
 import cn from "../../../public/flags/cn.png";
 import gb from "../../../public/flags/gb.png";
-import Contacts from "./contacts";
+import Contacts from "./Contacts";
+
 function SecondaryMain() {
   return (
     <>

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import director from "../../../../public/images/director.jpg";
-import Contacts from "@/components/Home/contacts";
+import Contacts from "@/components/Home/Contacts";
+
 function page() {
   return (
     <>
