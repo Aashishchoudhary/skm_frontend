@@ -74,7 +74,7 @@ function Footer() {
                   </p>
                  
                   <p>
-                    <i className="fas fa-print mr-3"></i> <a className='text-light' href='callto:+91 9997835388'>+91 9997835388</a>
+                    <i className="fas fa-print mr-3"></i> <a className='text-light' href='tel:+91 9997835388'>+91 9997835388</a>
                     
                   </p>
                 </div>
