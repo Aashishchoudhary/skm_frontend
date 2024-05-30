@@ -1,7 +1,7 @@
 import Image from "next/image";
 import work from '../../../../public/flags/work.jpg'
 import visa from '../../../../public/flags/visa.jpg'
-import family from '../../../../public/flags/family.jpg'
+import family from '../../../../public/flags/visa.jpg'
 import immigration from '../../../../public/flags/immigration.jpg'
 import citizen from '../../../../public/flags/citizen.jpg'
 function page() {
