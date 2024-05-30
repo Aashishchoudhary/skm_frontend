@@ -19,7 +19,7 @@ function Footer() {
                   </h6>
                   <Link href='/'>
 
-                  <Image src={logo} width={200} height={200}></Image>
+                  <Image src={logo} width={200} height={200}   alt='image'></Image>
                   </Link>
                 </div>
 

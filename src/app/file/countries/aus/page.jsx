@@ -1,4 +1,5 @@
-
+import Image from "next/image"
+import work from '../../../../../public/flags/work.jpg'
 function page() {
     return (
       <div>
@@ -6,16 +7,17 @@ function page() {
           <div className="row align-items-center">
             <h2 className="text-danger">Work Permit</h2>
             <div className="col mt-5">
-              <img
+              <Image
                 src={
-                  "https://www.rsglobalimmigration.com/wp-content/uploads/2023/10/How-to-Apply-for-a-Canada-Work-Permit-Visa-from-Dubai.jpg"
+                  work
                 }
                 width={550}
                 height={450}
-              ></img>
+                alt='image'
+              ></Image>
               <div className="container ">
                 <p className="fs-4  text-start mt-5">
-                If you're seeking employment in a new country, we'll assist you in  securing the necessary work permits.
+                If you&#39;re seeking employment in a new country, we&#39;ll assist you in  securing the necessary work permits.
   
                 Focus on your dreams while we handle the details.  Contact us today and let us make ease in your  journey!
                 </p>

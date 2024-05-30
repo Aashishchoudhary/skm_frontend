@@ -7,6 +7,10 @@ import fr from "../../../public/flags/fr.png";
 import cn from "../../../public/flags/cn.png";
 import gb from "../../../public/flags/gb.png";
 import Contacts from "./Contacts";
+import studyvisa from '../../../public/flags/studyvisa.jpg'
+import pte from '../../../public/flags/pte.jpg'
+import ilets from '../../../public/flags/ilets.jpg'
+import services from '../../../public/flags/services.jpg'
 
 function SecondaryMain() {
   return (
@@ -14,7 +18,7 @@ function SecondaryMain() {
       <div className="container text-center ">
         <div className="row align-items-center">
           <div className="col">
-            <Image src={img6} width={550} height={450}></Image>
+            <Image src={img6} width={550} height={450}   alt='image'></Image>
           </div>
           <div className="col ">
             <h3 className="text-danger">
@@ -39,22 +43,22 @@ function SecondaryMain() {
       <div className="container text-center mt-5">
         <div className="row align-items-center">
           <div className="col">
-            <Image src={ca} width={180} height={100}></Image>
+            <Image src={ca} width={180} height={100}   alt='image'></Image>
           </div>
           <div className="col">
-            <Image src={us} width={180} height={100}></Image>
+            <Image src={us} width={180} height={100}   alt='image'></Image>
           </div>
           <div className="col">
-            <Image src={fr} width={180} height={100}></Image>
+            <Image src={fr} width={180} height={100}   alt='image'></Image>
           </div>
           <div className="col">
-            <Image src={gb} width={180} height={100}></Image>
+            <Image src={gb} width={180} height={100}   alt='image'></Image>
           </div>
           <div className="col">
-            <Image src={cn} width={180} height={100}></Image>
+            <Image src={cn} width={180} height={100}   alt='image'></Image>
           </div>
           <div className="col">
-            <Image src={au} width={180} height={100}></Image>
+            <Image src={au} width={180} height={100}   alt='image'></Image>
           </div>
         </div>
       </div>
@@ -82,15 +86,15 @@ function SecondaryMain() {
         <div className="row align-items-center">
           <div className="col">
             <div className="card" style={{ width: "18rem", height: "24rem" }}>
-              <img
+              <Image
                 src={
-                  "https://imageio.forbes.com/specials-images/imageserve/5c5ca76131358e2a162e99ee/960x0.jpg?format=jpg&width=960"
+                 services
                 }
                 width={150}
                 height={200}
                 className="card-img-top"
                 alt="..."
-              ></img>
+              ></Image>
               <div className="card-body">
                 <h5 className="card-title">ILETS</h5>
                 <p className="card-text">
@@ -105,15 +109,15 @@ function SecondaryMain() {
           </div>
           <div className="col">
             <div className="card" style={{ width: "18rem", height: "24rem" }}>
-              <img
+              <Image
                 src={
-                  "https://motto-jp.com/media/wp-content/uploads/2020/10/AdobeStock_89851982.jpeg"
+                  ilets
                 }
                 width={150}
                 height={200}
                 className="card-img-top"
                 alt="..."
-              ></img>
+              ></Image>
               <div className="card-body">
                 <h5 className="card-title">Study Visa</h5>
                 <p className="card-text">
@@ -128,13 +132,13 @@ function SecondaryMain() {
           </div>
           <div className="col">
             <div className="card" style={{ width: "18rem", height: "24rem" }}>
-              <img
-                src={"https://www.indiaspend.com/wp-content/uploads/fs_620.jpg"}
+              <Image
+                src={studyvisa}
                 width={150}
                 height={200}
                 className="card-img-top"
                 alt="..."
-              ></img>
+              ></Image>
               <div className="card-body">
                 <h5 className="card-title">PTE</h5>
                 <p className="card-text">
@@ -149,15 +153,15 @@ function SecondaryMain() {
           </div>
           <div className="col">
             <div className="card" style={{ width: "18rem", height: "24rem" }}>
-              <img
+              <Image
                 src={
-                  "https://static.toiimg.com/thumb/76006166/Spain-tourists.jpg?width=1200&height=900"
+                 pte
                 }
                 width={150}
                 height={200}
                 className="card-img-top"
                 alt="..."
-              ></img>
+              ></Image>
               <div className="card-body">
                 <h5 className="card-title">TOURIST VISA</h5>
                 <p className="card-text">
@@ -179,15 +183,15 @@ function SecondaryMain() {
           <div className="col mt-3">
             <p className="fs-4">
               IELTS is one of the most widely recognized English language
-              proficiency tests, and it's commonly used for admission to
+              proficiency tests, and it is commonly used for admission to
               educational institutions, employment purposes, and immigration
               applications. We have the best tutors for IELTS training and the
               assurance of 6+ bands makes us the best among all. Our tutors have
               the best features every tutor should have which are the best
               communication skills, expertise in IELTS content, cultural
-              sensitivity, and personalized approach. If you're looking for the
+              sensitivity, and personalized approach. If you are looking for the
               best IELTS center in Panipat, Sonipat, Kurukshetra, or Karnal,
-              then you're search is finished now. We have brought up the best
+              then you are search is finished now. We have brought up the best
               IELTS tutors to make your dream of studying abroad.
             </p>
           </div>
@@ -204,7 +208,7 @@ function SecondaryMain() {
               real-life language use, as opposed to more traditional language
               tests that focus solely on academic language. Each section of the
               PTE exam is designed to evaluate specific language skills, and the
-              test as a whole provides a comprehensive view of an individual's
+              test as a whole provides a comprehensive view of an individual&#39;s
               English proficiency. The scores you receive for each section
               contribute to an overall score on a scale from 10 to 90, with
               increments of 1 point. Different institutions and organizations
@@ -263,7 +267,7 @@ function SecondaryMain() {
       </div>
       <br />
       <div className="container accordion" id="accordionExample">
-        <p className="container text-center fs-2 text-danger">FAQ's</p>
+        <p className="container text-center fs-2 text-danger">FAQ&#39;s</p>
         <div className="accordion-item">
           <h2 className="accordion-header" id="headingOne">
             <button
@@ -320,7 +324,7 @@ function SecondaryMain() {
               </p>
               <p>
                 <strong> Transportation:</strong> Although many aspirants merge
-                it with the living expense and don't consider it a major
+                it with the living expense and don&#39;t consider it a major
                 expense. However, after tuition and living, transportation is
                 one of the major expense which students should focus on while
                 planning for financials. Students take into account only the
@@ -403,7 +407,7 @@ function SecondaryMain() {
               aria-controls="collapseThree"
             >
               <h2 className="fs-6">
-                Q3. Why It's Worth Considering Foreign Education?
+                Q3. Why It&#39;s Worth Considering Foreign Education?
               </h2>
             </button>
           </h2>

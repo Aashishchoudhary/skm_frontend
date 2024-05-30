@@ -27,7 +27,7 @@ function page() {
               SKM Abroad Consultancy focus is on the individual from
               appreciating self-expression to encouraging original thought and
               from fostering personal achievement to ensuring Long-term success.
-              The road to your future begins here at Weston Overseas . we 'll
+              The road to your future begins here at Weston Overseas . we will
               help you reach beyond all the barriers to discover yourself and
               help you to become the kind of individual, you always
               knew you could be!
@@ -36,29 +36,29 @@ function page() {
         </div>
       </div>
       <p className="container text-center fs-1 mt-4 text-danger">
-        Director's Message
+        Director&#39;s Message
       </p>
       <div className="container text-center  mt-4">
         <div className="row align-items-center">
           <div className="col">
-            <Image src={director} width={550} height={450}></Image>
+            <Image src={director} width={550} height={450}   alt='image'></Image>
           </div>
           <div className="col ">
             <p className="fs-4">
               Welcome to SKM Abroad Consultancy, your trusted partner in
-              immigration. I'm Navneet yadav, and I have great regard for
+              immigration. I&#39;m Navneet yadav, and I have great regard for
               leading a team of committed professionals who are passionate about
               helping you achieve your dreams of living in a new country.
-              Immigration is more than just a process; it's a life-changing
-              journey. It's a journey filled with dreams, aspirations, and the
+              Immigration is more than just a process; it&#39;s a life-changing
+              journey. It&#39;s a journey filled with dreams, aspirations, and the
               hope for a brighter future. At SKM Abroad Consultancy, we
               understand the significance of this journey, and we are here to
               walk it with you every step of the way.
               <br />
               <br />
-              Our commitment to you is not just professional; it's personal. We
+              Our commitment to you is not just professional; it&#39;s personal. We
               recognize that behind every application and document is a unique
-              story, a family's future, or an individual's dream. We take that
+              story, a family&#39;s future, or an individual&#39;s dream. We take that
               responsibility to heart, and we treat your case with the same care
               and attention we would give to our own.
             </p>
@@ -108,7 +108,7 @@ function page() {
               </p>
               <p>
                 <strong>4. Work Permits:</strong>
-                If you're seeking employment in a new country, we'll assist you
+                If you&#39;re seeking employment in a new country, we&#39;ll assist you
                 in securing the necessary work permits.
               </p>
               <p>
