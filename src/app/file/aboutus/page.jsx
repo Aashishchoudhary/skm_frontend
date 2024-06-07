@@ -41,7 +41,7 @@ function page() {
       <div className="container text-center  mt-4">
         <div className="row align-items-center">
           <div className="col">
-            <Image src={director} width={550} height={450}   alt='image'></Image>
+            <Image className="imgtag" src={director} width={550} height={450}   alt='image'></Image>
           </div>
           <div className="col ">
             <p className="fs-4">

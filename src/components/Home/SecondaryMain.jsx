@@ -7,18 +7,24 @@ import fr from "../../../public/flags/fr.png";
 import cn from "../../../public/flags/cn.png";
 import gb from "../../../public/flags/gb.png";
 import Contacts from "./Contacts";
-import studyvisa from '../../../public/flags/studyvisa.jpg'
-import pte from '../../../public/flags/pte.jpg'
-import ilets from '../../../public/flags/ilets.jpg'
-import services from '../../../public/flags/services.jpg'
-
+import studyvisa from "../../../public/flags/studyvisa.jpg";
+import pte from "../../../public/flags/pte.jpg";
+import ilets from "../../../public/flags/ilets.jpg";
+import services from "../../../public/flags/services.jpg";
+import Link from "next/link";
 function SecondaryMain() {
   return (
     <>
       <div className="container text-center ">
         <div className="row align-items-center">
           <div className="col">
-            <Image src={img6} width={550} height={450}   alt='image'></Image>
+            <Image
+              className="imgtag"
+              src={img6}
+              width={550}
+              height={450}
+              alt="image"
+            ></Image>
           </div>
           <div className="col ">
             <h3 className="text-danger">
@@ -42,23 +48,23 @@ function SecondaryMain() {
 
       <div className="container text-center mt-5">
         <div className="row align-items-center">
-          <div className="col">
-            <Image src={ca} width={180} height={100}   alt='image'></Image>
+          <div className="col marginbottom">
+            <Image src={ca} width={180} height={100} alt="image"></Image>
           </div>
-          <div className="col">
-            <Image src={us} width={180} height={100}   alt='image'></Image>
+          <div className="col marginbottom">
+            <Image src={us} width={180} height={100} alt="image"></Image>
           </div>
-          <div className="col">
-            <Image src={fr} width={180} height={100}   alt='image'></Image>
+          <div className="col marginbottom">
+            <Image src={fr} width={180} height={100} alt="image"></Image>
           </div>
-          <div className="col">
-            <Image src={gb} width={180} height={100}   alt='image'></Image>
+          <div className="col marginbottom">
+            <Image src={gb} width={180} height={100} alt="image"></Image>
           </div>
-          <div className="col">
-            <Image src={cn} width={180} height={100}   alt='image'></Image>
+          <div className="col marginbottom">
+            <Image src={cn} width={180} height={100} alt="image"></Image>
           </div>
-          <div className="col">
-            <Image src={au} width={180} height={100}   alt='image'></Image>
+          <div className="col marginbottom">
+            <Image src={au} width={180} height={100} alt="image"></Image>
           </div>
         </div>
       </div>
@@ -83,99 +89,96 @@ function SecondaryMain() {
         <h2 className="text-danger">Services We Provide</h2>
       </div>
       <div className="container text-center mt-5">
-        <div className="row align-items-center">
-          <div className="col">
-            <div className="card" style={{ width: "18rem", height: "24rem" }}>
-              <Image
-                src={
-                 services
-                }
-                width={150}
-                height={200}
-                className="card-img-top"
-                alt="..."
-              ></Image>
-              <div className="card-body">
-                <h5 className="card-title">ILETS</h5>
-                <p className="card-text">
-                  The ILETS is designed to help you achieve your ambition of
-                  working, studying or moving....
-                </p>
-                <a href="#" className="btn btn-primary">
-                  Go somewhere
-                </a>
-              </div>
+      <div className="row align-items-center">
+        <div className="col-12 col-md-6 col-lg-3 mb-4">
+          <div className="card mx-auto" style={{ width: '18rem', height: '24rem' }}>
+            <Image
+              src={services}
+              width={288}
+              height={384}
+              className="card-img-top"
+              alt="ILETS"
+            />
+            <div className="card-body">
+              <h5 className="card-title">ILETS</h5>
+              <p className="card-text">
+                The ILETS is designed to help you achieve your ambition of
+                working, studying or moving....
+              </p>
+              <Link href="/file/study/ilets" className="btn btn-primary">
+                Read More...
+              </Link>
             </div>
           </div>
-          <div className="col">
-            <div className="card" style={{ width: "18rem", height: "24rem" }}>
-              <Image
-                src={
-                  ilets
-                }
-                width={150}
-                height={200}
-                className="card-img-top"
-                alt="..."
-              ></Image>
-              <div className="card-body">
-                <h5 className="card-title">Study Visa</h5>
-                <p className="card-text">
-                  A study visa is a type of visa that allows the applicant to
-                  study in a foreign country.
-                </p>
-                <a href="#" className="btn btn-primary">
-                  Go somewhere
-                </a>
-              </div>
+        </div>
+
+        <div className="col-12 col-md-6 col-lg-3 mb-4">
+          <div className="card mx-auto" style={{ width: '18rem', height: '24rem' }}>
+            <Image
+              src={ilets}
+              width={288}
+              height={384}
+              className="card-img-top"
+              alt="Study Visa"
+            />
+            <div className="card-body">
+              <h5 className="card-title">Study Visa</h5>
+              <p className="card-text">
+                A study visa is a type of visa that allows the applicant to
+                study in a foreign country.
+              </p>
+              <a href="#" className="btn btn-primary">
+                Read More...
+              </a>
             </div>
           </div>
-          <div className="col">
-            <div className="card" style={{ width: "18rem", height: "24rem" }}>
-              <Image
-                src={studyvisa}
-                width={150}
-                height={200}
-                className="card-img-top"
-                alt="..."
-              ></Image>
-              <div className="card-body">
-                <h5 className="card-title">PTE</h5>
-                <p className="card-text">
-                  PTE tests are recognized worldwide by universities, colleges,
-                  governments,....
-                </p>
-                <a href="#" className="btn btn-primary">
-                  Go somewhere
-                </a>
-              </div>
+        </div>
+
+        <div className="col-12 col-md-6 col-lg-3 mb-4">
+          <div className="card mx-auto" style={{ width: '18rem', height: '24rem' }}>
+            <Image
+              src={studyvisa}
+              width={288}
+              height={384}
+              className="card-img-top"
+              alt="PTE"
+            />
+            <div className="card-body">
+              <h5 className="card-title">PTE</h5>
+              <p className="card-text">
+                PTE tests are recognized worldwide by universities, colleges,
+                governments,....
+              </p>
+              <a href="#" className="btn btn-primary">
+                Read More...
+              </a>
             </div>
           </div>
-          <div className="col">
-            <div className="card" style={{ width: "18rem", height: "24rem" }}>
-              <Image
-                src={
-                 pte
-                }
-                width={150}
-                height={200}
-                className="card-img-top"
-                alt="..."
-              ></Image>
-              <div className="card-body">
-                <h5 className="card-title">TOURIST VISA</h5>
-                <p className="card-text">
-                  A TOURIST VISA is a visa for tourism or visiting friends or
-                  family in another country.
-                </p>
-                <a href="#" className="btn btn-primary">
-                  Go somewhere
-                </a>
-              </div>
+        </div>
+
+        <div className="col-12 col-md-6 col-lg-3 mb-4">
+          <div className="card mx-auto" style={{ width: '18rem', height: '24rem' }}>
+            <Image
+              src={pte}
+              width={288}
+              height={384}
+              className="card-img-top"
+              alt="TOURIST VISA"
+            />
+            <div className="card-body">
+              <h5 className="card-title">TOURIST VISA</h5>
+              <p className="card-text">
+                A TOURIST VISA is a visa for tourism or visiting friends or
+                family in another country.
+              </p>
+              <a href="#" className="btn btn-primary">
+                Read More...
+              </a>
             </div>
           </div>
         </div>
       </div>
+    </div>
       <br />
       <div className="container text-center mt-5">
         <div className="row align-items-center">
@@ -208,12 +211,12 @@ function SecondaryMain() {
               real-life language use, as opposed to more traditional language
               tests that focus solely on academic language. Each section of the
               PTE exam is designed to evaluate specific language skills, and the
-              test as a whole provides a comprehensive view of an individual&#39;s
-              English proficiency. The scores you receive for each section
-              contribute to an overall score on a scale from 10 to 90, with
-              increments of 1 point. Different institutions and organizations
-              may have specific score requirements for admission, employment, or
-              immigration purposes
+              test as a whole provides a comprehensive view of an
+              individual&#39;s English proficiency. The scores you receive for
+              each section contribute to an overall score on a scale from 10 to
+              90, with increments of 1 point. Different institutions and
+              organizations may have specific score requirements for admission,
+              employment, or immigration purposes
             </p>
           </div>
         </div>
@@ -465,12 +468,18 @@ function SecondaryMain() {
             </p>
           </div>
           <div className="col ">
-            <Image src={img6} width={650} height={450}></Image>
+            <Image
+              className="imgtag"
+              src={img6}
+              width={650}
+              height={450}
+              alt='image'
+            ></Image>
           </div>
         </div>
       </div>
       <br />
-     <Contacts/>
+      <Contacts />
       <br />
     </>
   );

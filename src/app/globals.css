@@ -2,9 +2,22 @@
 @tailwind components;
 @tailwind utilities; */
 
-
 .bgimage {
-  background-image: url('../../public/logo7.png');
-  background-size : 400px 400px;
-  
+  background-image: url("../../public/logo7.png");
+  background-size: 400px 400px;
+}
+@media only screen and (max-width: 720px) {
+  .imgtag {
+    width: 350px;
+    height: 250px;
+  }
+ 
+  .marginbottom {
+    margin-bottom: 20px;
+   
+  }
+
+  .whatsapp {
+    margin-bottom: 20px;
+  }
 }

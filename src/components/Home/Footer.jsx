@@ -43,30 +43,11 @@ function Footer() {
 
                 <hr className="w-100 clearfix d-md-none" />
 
-                <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-                  <h6 className="text-uppercase mb-4 font-weight-bold">
-                    Useful links
-                  </h6>
-                  <p>
-                    <a className="text-white">Your Account</a>
-                  </p>
-                  <p>
-                    <a className="text-white">Become an Affiliate</a>
-                  </p>
-                  <p>
-                    <a className="text-white">Shipping Rates</a>
-                  </p>
-                  <p>
-                    <a className="text-white">Help</a>
-                  </p>
-                </div>
-
-                <hr className="w-100 clearfix d-md-none" />
 
                 <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
                   <h6 className="text-uppercase mb-4 font-weight-bold">Contact</h6>
                   <p>
-                    <i className="fas fa-home mr-3"></i> New York, NY 10012, US
+                    <i className="fas fa-home mr-3"></i>NH-62 Near Goga gate Bikaner Rajasthan
                   </p>
                   <p>
                     <i className="fas fa-envelope mr-3"></i> <a 
@@ -74,7 +55,7 @@ function Footer() {
                   </p>
                  
                   <p>
-                    <i className="fas fa-print mr-3"></i> <a className='text-light' href='tel:+91 9997835388'>+91 9997835388</a>
+                    <i className="fas fa-print mr-3"></i> <a className='text-light' href='tel:+919997835388'>+91 9997835388</a>
                     
                   </p>
                 </div>

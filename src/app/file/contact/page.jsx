@@ -9,7 +9,7 @@ function page() {
         <div className="row align-items-center">
           <h2 className="text-danger"> birla auditorium </h2>
           <div className="col mt-5">
-          <a href="https://maps.app.goo.gl/DPqCLJYC2964kASg7"><Image
+          <a href="https://maps.app.goo.gl/DPqCLJYC2964kASg7"><Image className="imgtag"
               src={
                 map
               }

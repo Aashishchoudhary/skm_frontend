@@ -46,7 +46,7 @@ function MainPage() {
         <div className="carousel-inner">
           <div className="carousel-item active" data-bs-interval="2000">
             <Image
-              className="d-block w-100"
+              className="d-block w-100 imgtag"
               src={img7}
               alt="Third slide"
               width={700}
@@ -55,7 +55,7 @@ function MainPage() {
           </div>
           <div className="carousel-item" data-bs-interval="2000">
             <Image
-              className="d-block w-100"
+              className="d-block w-100 imgtag"
               src={img4}
               alt="Third slide"
               width={700}
@@ -65,7 +65,7 @@ function MainPage() {
 
           <div className="carousel-item" data-bs-interval="2000">
             <Image
-              className="d-block w-100"
+              className="d-block w-100 imgtag"
               src={img3}
               alt="Third slide"
               width={700}
@@ -74,7 +74,7 @@ function MainPage() {
           </div>
           <div className="carousel-item" data-bs-interval="2000">
             <Image
-              className="d-block w-100"
+              className="d-block w-100 imgtag"
               src={img5}
               alt="Third slide"
               width={700}

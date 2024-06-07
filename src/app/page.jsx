@@ -10,7 +10,7 @@ export default function Home() {
 
     
    <HomePage/>
-   <a className="w-10 h-10 position-fixed bottom-0"   href="https://api.whatsapp.com/send?phone=+919997835488&text=Hello"><Image src={whatsapp} width={70} height={70}   alt='image'></Image></a>
+   <a className="w-10 h-10 position-fixed bottom-0 whatsapp"   href="https://api.whatsapp.com/send?phone=+919997835488&text=Hello"><Image src={whatsapp} width={70} height={70}   alt='image'></Image></a>
   
     </>
   );

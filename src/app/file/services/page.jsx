@@ -11,7 +11,7 @@ function page() {
         <div className="row align-items-center">
           <h2 className="text-danger">Immigration Consultation</h2>
           <div className="col mt-5">
-            <Image
+            <Image className="imgtag"
               src={
                 immigration
               }
@@ -39,7 +39,7 @@ function page() {
         <div className="row align-items-center">
           <h2 className="text-danger">Visa Processing</h2>
           <div className="col mt-5">
-            <Image
+            <Image className="imgtag"
               src={
                 visa
               }
@@ -69,7 +69,7 @@ function page() {
           <h2 className="text-danger">Citizenship Applications
 </h2>
           <div className="col mt-5">
-            <Image
+            <Image className="imgtag"
               src={
                 citizen
               }
@@ -102,7 +102,7 @@ function page() {
           <h2 className="text-danger">Family Sponsorship
 </h2>
           <div className="col mt-5">
-            <Image
+            <Image className="imgtag"
               src={
                 family
               }
@@ -122,7 +122,7 @@ function page() {
         <div className="row align-items-center">
           <h2 className="text-danger">Work Permit</h2>
           <div className="col mt-5">
-            <Image
+            <Image className="imgtag"
               src={
                work
               }
