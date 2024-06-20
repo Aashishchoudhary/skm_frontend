@@ -1,6 +1,6 @@
-import Footer from "@/components/Home/Footer";
+
 import HomePage from "@/components/Home/HomePage";
-import NavBar from "@/components/NavBar";
+
 import Image from "next/image";
 
 import whatsapp from '../../public/images/whatsapp.png'
